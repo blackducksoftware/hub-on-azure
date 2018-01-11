@@ -167,7 +167,7 @@
                     "fileUris": [
                         "https://raw.githubusercontent.com/blackducksoftware/hub-on-azure/master/install-hub.sh"
                     ],
-                    "commandToExecute": "[concat('sh install-hub.sh ', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ' ', parameters('hubVersion')]"
+                    "commandToExecute": "[concat('sh install-hub.sh ', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ' ', parameters('hubVersion'))]"
                 }
             }
         }
