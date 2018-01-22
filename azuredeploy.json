@@ -32,9 +32,9 @@
         },
         "hubVersion": {
             "type": "string",
-            "defaultValue": "4.3.1",
+            "defaultValue": "4.4.0",
             "allowedValues": [
-                "4.3.1"
+                "4.4.0", "4.3.1"
             ],
             "metadata": {
                 "description": "The version of Black Duck Hub to be installed."
