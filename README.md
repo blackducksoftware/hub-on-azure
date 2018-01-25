@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="25%" height="25%" src="https://www.blackducksoftware.com/sites/default/files/images/Logos/BD-S.png">
+</p>
+
 ## Black Duck Hub on Microsoft Azure
 This repository contains all necessary materials to create your own instance of [Black Duck Hub](https://www.blackducksoftware.com/products/hub) on a VM in Microsoft Azure.
 
