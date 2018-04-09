@@ -32,12 +32,10 @@
         },
         "hubVersion": {
             "type": "string",
-            "defaultValue": "4.4.3",
+            "defaultValue": "4.5.1",
             "allowedValues": [
+                "4.5.1",
                 "4.4.3",
-                "4.4.2",
-                "4.4.1",
-                "4.4.0",
                 "4.3.1"
             ],
             "metadata": {
