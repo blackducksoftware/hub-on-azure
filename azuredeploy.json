@@ -32,8 +32,9 @@
         },
         "hubVersion": {
             "type": "string",
-            "defaultValue": "4.5.1",
+            "defaultValue": "4.6.1",
             "allowedValues": [
+                "4.6.1",
                 "4.5.1",
                 "4.4.3",
                 "4.3.1"
