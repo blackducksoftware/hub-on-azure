@@ -37,4 +37,4 @@ echo
 cd /hub-${HUB_VERSION}/docker-compose
 echo "sed -i \"s/PUBLIC_HUB_WEBSERVER_HOST\=.*/PUBLIC_HUB_WEBSERVER_HOST\=\$1/g\" /hub-${HUB_VERSION}/docker-compose/hub-webserver.env" | sudo tee /set_hub_url.sh
 sudo -s source /set_hub_url.sh $HOST_URL
-sudo docker-compose up
+sudo docker-compose --project hub up
