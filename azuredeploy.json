@@ -167,7 +167,7 @@
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "fileUris": [
-                        "https://raw.githubusercontent.com/blackducksoftware/hub-on-azure/ubuntu/18_04_lts/install-hub.sh"
+                        "[concat('https://raw.githubusercontent.com/blackducksoftware/hub-on-azure/ubuntu/', parameters('ubuntuOSVersion') ,'/install-hub.sh')]"
                     ],
                     "commandToExecute": "[concat('sh install-hub.sh ', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ' ', parameters('hubVersion'))]"
                 }
