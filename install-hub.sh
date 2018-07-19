@@ -14,7 +14,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
     $(lsb_release -cs) \
     stable"
 sudo apt-get update
-sudo apt-get install -y docker-ce=18.06.0~ce-0~ubuntu
+sudo apt-get install -y docker-ce=18.06.0~ce~3-0~ubuntu
 sudo service docker start
 
 ## Install docker compose
