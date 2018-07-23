@@ -8,7 +8,7 @@ This repository contains all necessary materials to create your own instance of 
 # Getting Started.
 
 1. Click this button:
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fblackducksoftware%2Fhub-on-azure%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fblackducksoftware%2Fhub-on-azure%2Fubuntu%2F18.04-LTS%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
