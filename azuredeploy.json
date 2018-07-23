@@ -22,9 +22,9 @@
         },
         "ubuntuOSVersion": {
             "type": "string",
-            "defaultValue": "16.04-LTS",
+            "defaultValue": "18.04-LTS",
             "allowedValues": [
-                "16.04-LTS"
+                "18.04-LTS"
             ],
             "metadata": {
                 "description": "The Ubuntu version for the VM. This will pick a fully patched image of this given Ubuntu version."
@@ -32,12 +32,11 @@
         },
         "hubVersion": {
             "type": "string",
-            "defaultValue": "4.6.2",
+            "defaultValue": "4.7.1",
             "allowedValues": [
-                "4.7.0",
+                "4.7.1",
                 "4.6.2",
-                "4.5.1",
-                "4.4.3"
+                "4.5.1"
             ],
             "metadata": {
                 "description": "The version of Black Duck Hub to be installed."
@@ -168,7 +167,7 @@
                 "autoUpgradeMinorVersion": true,
                 "settings": {
                     "fileUris": [
-                        "https://raw.githubusercontent.com/blackducksoftware/hub-on-azure/master/install-hub.sh"
+                        "[concat('https://raw.githubusercontent.com/blackducksoftware/hub-on-azure/ubuntu/', parameters('ubuntuOSVersion') ,'/install-hub.sh')]"
                     ],
                     "commandToExecute": "[concat('sh install-hub.sh ', reference(variables('publicIPAddressName')).dnsSettings.fqdn, ' ', parameters('hubVersion'))]"
                 }
